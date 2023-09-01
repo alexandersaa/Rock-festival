@@ -1,0 +1,25 @@
+@use 'variables' as v;
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before *:after {
+  box-shadow: inherit;
+}
+body {
+  font-family: v.$fuentePricipal;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
