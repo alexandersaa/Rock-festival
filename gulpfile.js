@@ -12,7 +12,7 @@ const plumber = require('gulp-plumber');
 const imagemin = require('gulp-imagemin');
 
 const paths = {
-  css: "./src/scss/**/*.scss ",
+  css: "./src/scss/**/*.scss",
   imagenes: "./src/img/**/*"
 }
 

@@ -12,8 +12,15 @@ body {
   font-family: v.$fuentePricipal;
   font-size: 1.6rem;
 }
+
+[class*='contenedor'] {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
 h1 {
-  font-size: 2.8rem;
+  font-size: 4rem;
 }
 
 h2 {
